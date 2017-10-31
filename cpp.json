@@ -76,4 +76,20 @@
 		],
 		"description": "Insert an empty main function."
 	}
+
+	"class definition": {
+		"prefix": "class",
+		"body": [
+			"class ${1:class name} ${2:inheritance}",
+			"{",
+			"public:",
+			"  ${1:class name} ();",
+
+			"private:",
+			"  ${3:member data}",
+			"};",
+			""
+		],
+		"description": "Insert new class definition."
+	}
 }
