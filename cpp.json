@@ -63,4 +63,17 @@
 		],
 		"description": "Insert a header comment for the current file."
 	}
+
+	"main function": {
+		"prefix": "int main",
+		"body": [
+			"int main (int argc, char** argv)",
+			"{",
+			"  ${1:body}",
+			"  return 0;",
+			"}",
+			""
+		],
+		"description": "Insert an empty main function."
+	}
 }
